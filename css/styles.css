@@ -212,6 +212,12 @@ header .logo {
     height: 100%;
     background: rgba(0, 0, 0, 0.2);
 }
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+
+}
 .modal {
     position: absolute;
     top: 50%;
@@ -227,7 +233,7 @@ header .logo {
 }
 .modal-btn-close {
     max-width: 18px;
-    max-height: 18px
+    max-height: 18px;
     
 }
 /* ===============Hero styles 🧐 ends here========== */
