@@ -301,7 +301,8 @@ h2 .container,
  }
 
 .advantages,
-.join {
+.join
+.item-do {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
