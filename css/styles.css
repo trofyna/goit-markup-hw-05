@@ -162,6 +162,7 @@ header .logo {
 /* ===============Hero styles 🧐 starts here========== */
 
 .hero {
+    position: relative;
     background: #2f303a;
     padding: 200px 0;
     max-width: 1600px;
@@ -187,7 +188,7 @@ header .logo {
     margin-bottom: 30px;
 }
 .hero-btn {
-    position: relative;
+    /* position: relative; */
     padding: 10px 32px;
     background: #2196f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -204,12 +205,14 @@ header .logo {
     background:#188CE8 ;
 }
 .backdrop {
-    position: fixed;
+    position: absolute;
     padding: 0px;
     margin: 0px auto;
-    width: 200px;
-    height: 200px;
-    background: var(--sec-grey-background-color);
+    width: 528px;
+    height: 581px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 }
 
 /* ===============Hero styles 🧐 ends here========== */
