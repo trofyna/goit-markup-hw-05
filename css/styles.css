@@ -187,6 +187,7 @@ header .logo {
     margin-bottom: 30px;
 }
 .hero-btn {
+    position: relative;
     padding: 10px 32px;
     background: #2196f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -202,7 +203,14 @@ header .logo {
 .hero-btn:focus {
     background:#188CE8 ;
 }
-
+.backdrop {
+    position: fixed;
+    padding: 0px;
+    margin: 0px auto;
+    width: 200px;
+    height: 200px;
+    background: var(--sec-grey-background-color);
+}
 
 /* ===============Hero styles 🧐 ends here========== */
 
