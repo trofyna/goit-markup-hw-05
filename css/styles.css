@@ -205,6 +205,7 @@ header .logo {
     background:#188CE8 ;
 }
 .backdrop {
+    z-index: 2;
     position: fixed;
     top: 0;
     left: 0;
@@ -220,7 +221,7 @@ header .logo {
 
 }
 .modal {
-    z-index: 2;
+    
     position: absolute;
     top: 50%;
     left: 50%;
@@ -646,7 +647,8 @@ h2.product {
     color: #ffffff;
     background-color: rgba(33, 150, 243, 0.9);
   }
-  .kryak:hover::before {
+    .kryak:hover::before,
+    a.container-main-por:hover::before {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(-100%);
   }
