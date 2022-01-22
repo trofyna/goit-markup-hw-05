@@ -118,6 +118,9 @@ header .logo {
     font-weight: 500;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .links li:last-child a {
@@ -128,6 +131,10 @@ header .logo {
 .contacts li a {
     margin: 0 0 0 50px;
     color: var(--sec-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .contacts li a:hover,
@@ -222,7 +229,7 @@ header .logo {
     color: var(--prim-white-background);
     margin: 0 auto;
     max-width: 650px;
-    transition-property: background-color;
+    transition-property: background-color, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -230,6 +237,7 @@ header .logo {
 .hero-btn:hover,
 .hero-btn:focus {
     background:#188CE8 ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .backdrop {
     z-index: 2;
