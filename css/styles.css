@@ -236,9 +236,9 @@ header .logo {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background:red ;
+    background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    color: yellow;
+    color: var(--prim-white-background);
 }
 .backdrop {
     z-index: 2;
