@@ -20,6 +20,9 @@ button {
     border: none;
     cursor: pointer;
     font-family: inherit;
+    transition-property: background-color, color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 /* ===============RESET styles 🧐 ends here========== */
@@ -73,9 +76,9 @@ nav,
 header .container {
     display: flex;
     justify-content: space-between;
-    /* transition-property: color, fill;
+    transition-property: color, fill;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 header{
@@ -404,7 +407,16 @@ h2 .container,
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px 
     rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.card-point:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+   
+    }
 .card-team {
     padding-top: 30px;
     padding-bottom: 30px;
