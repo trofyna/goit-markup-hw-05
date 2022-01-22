@@ -612,7 +612,8 @@ color: var(--main-color);
 h2.product {
     margin-bottom: 4px;
 }
-.card-design {
+.card-design,
+.card-appendix {
     position: relative;
 }
 
