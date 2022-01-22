@@ -156,11 +156,13 @@ header .logo {
     fill:currentColor;
 }
 
-.link-nav-index {
+.link-nav-index,
+.link-nav-portfolio {
     position: relative;
 }
 
-.link-nav-index::after {
+.link-nav-index::after,
+.link-nav-portfolio::after {
     position: absolute;
     content: '';
     display: block;
