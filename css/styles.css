@@ -613,7 +613,8 @@ h2.product {
     margin-bottom: 4px;
 }
 .card-design,
-.card-appendix {
+.card-appendix,
+.card-marketing {
     position: relative;
 }
 
