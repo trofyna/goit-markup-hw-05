@@ -156,7 +156,8 @@ header .logo {
     fill:currentColor;
 }
 
-.link-nav-index,
+/* .link-nav-index, */
+.links
 .link-nav-portfolio {
     position: relative;
 }
@@ -164,9 +165,11 @@ header .logo {
 .link-nav-index::after,
 .link-nav-portfolio::after {
     position: absolute;
+    bottom: -1px;
+    transform: translateY(100%);
     content: '';
     display: block;
-    width: 100%;
+    width: 48px;
     height: 4px;
     background: var(--act-color);
     border-radius: 2px;
