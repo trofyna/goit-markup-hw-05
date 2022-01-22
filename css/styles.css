@@ -277,9 +277,12 @@ header .logo {
         left: 490px;
         stroke: #000;
         stroke-opacity: 0.1;
-}
+        transition-property: stroke, stroke-opacity;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    }
 .close:hover {
-        stroke: var(--main-color);
+        stroke: var(--act-color);
         stroke-opacity: 1;
        
 }
