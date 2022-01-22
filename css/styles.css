@@ -612,9 +612,14 @@ color: var(--main-color);
 h2.product {
     margin-bottom: 4px;
 }
-.card-design,
-.card-appendix,
-.card-marketing {
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8,
+.card9 {
     position: relative;
 }
 
